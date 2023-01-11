@@ -1,0 +1,63 @@
+.card {
+    width: 350px;
+    min-height: 350px;
+    border:4px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 16px;
+    background-color: darkgray;
+
+}
+.picture {
+    width: 350px;
+    height: 200px;
+}
+.quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.stats{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height:68px;
+}
+a:active, a:visited, a{
+    color: black;
+    text-decoration: none;
+}
+.atk{
+    color: red;
+}
+.hp {
+    color: green;
+}
+.cost {
+    color: gold;
+}
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rarity-1{
+    color: deepskyblue;
+}
+.rarity-2{
+    color: mediumvioletred;
+}
+.rarity-3 {
+    color: purple;
+}
+.rarity-4 {
+    color: gold;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(69, 236, 239, 0.9);
+}
+.rarity-5 {
+    color: darkred;
+}
